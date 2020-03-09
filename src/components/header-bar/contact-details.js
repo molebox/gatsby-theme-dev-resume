@@ -52,6 +52,20 @@ const ContactDetails = () => {
           hello@richardhaines.dev
         </a>
       </li>
+      <li>
+        <a
+          sx={{
+            textDecoration: "none",
+            color: "accent",
+            ":hover": {
+              color: "headerText"
+            }
+          }}
+          href="https://twitter.com/studio_hungry"
+        >
+          @studio_hungry
+        </a>
+      </li>
     </ul>
   );
 };
