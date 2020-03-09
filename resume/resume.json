@@ -159,7 +159,7 @@
       "keywords": [
         "JavaScript",
         "TypeScript",
-        "C# - (its been a while)",
+        "C#",
         "GraphQL",
         "MDX"
       ]
@@ -172,7 +172,7 @@
         "CSS-in-JS",
         "Emotion",
         "Theme-ui",
-        "Bootstrap - (its been a while)"
+        "Bootstrap"
       ]
     },
     {
@@ -187,14 +187,13 @@
       "name": "CMS",
       "keywords": [
         "Sanity.io",
-        "Contenful - (have dabbled)",
-        "Firebase - (have dabbled)"
+        "Contenful",
+        "Firebase"
       ]
     },
     {
       "name": "Web Debug Tools",
       "keywords": [
-        "Mozilla firebug",
         "Chrome dev tools"
       ]
     },
@@ -207,8 +206,7 @@
     {
       "name": "Database and ORM",
       "keywords": [
-        "SQL Server - (its been a while)",
-        "Entity Framework - (its been a while)"
+        "SQL Server"
       ]
     },
     {
@@ -217,8 +215,7 @@
         "GIT",
         "Jira",
         "Bitbucket",
-        "Agile Process",
-        "ISS - (its been a while)"
+        "Agile Process"
       ]
     }
   ],

@@ -40,6 +40,7 @@ const Projects = ({ projects }) => {
               github={project.github}
               npm={project.npm}
               live={project.live}
+              name={project.name}
             />
           </RightColumn>
         </ProjectItem>

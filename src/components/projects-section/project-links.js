@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
+import React from "react";
 
-const ProjectLinks = ({ github, npm, live }) => {
+const ProjectLinks = ({ github, npm, live, name }) => {
   return (
     <div
       sx={{
@@ -15,38 +16,37 @@ const ProjectLinks = ({ github, npm, live }) => {
         alignSelf: "flex-start"
       }}
     >
-      {live ? (
-        <a
-          sx={{
-            fontSize: ["0.8em", "1em", "1em"],
-            color: "text",
-            color: "secondaryDarker",
-            fontWeight: 600,
-            ":hover": {
-              color: "accent"
-            }
-          }}
-          href={live}
-        >
-          Site url: {live}
-        </a>
-      ) : null}
-
-      <a
+      <div
         sx={{
-          fontSize: ["0.8em", "1em", "1em"],
-          color: "text",
-          color: "secondaryDarker",
-          fontWeight: 600,
-          ":hover": {
-            color: "accent"
-          }
+          display: "flex"
         }}
-        href={github}
       >
-        Github: {github}
-      </a>
-      {npm ? (
+        {live ? (
+          <>
+            View
+            <a
+              sx={{
+                fontSize: ["0.8em", "1em", "1em"],
+                color: "text",
+                color: "secondaryDarker",
+                fontWeight: 600,
+                ":hover": {
+                  color: "accent"
+                }
+              }}
+              href={live}
+            >
+              &nbsp;{name}
+            </a>
+          </>
+        ) : null}
+      </div>
+      <div
+        sx={{
+          display: "flex"
+        }}
+      >
+        View
         <a
           sx={{
             fontSize: ["0.8em", "1em", "1em"],
@@ -57,11 +57,38 @@ const ProjectLinks = ({ github, npm, live }) => {
               color: "accent"
             }
           }}
-          href={npm}
+          href={github}
         >
-          NPM: {npm}
+          &nbsp;{name}&nbsp;
         </a>
-      ) : null}
+        source
+      </div>
+      <div
+        sx={{
+          display: "flex"
+        }}
+      >
+        {npm ? (
+          <>
+            View
+            <a
+              sx={{
+                fontSize: ["0.8em", "1em", "1em"],
+                color: "text",
+                color: "secondaryDarker",
+                fontWeight: 600,
+                ":hover": {
+                  color: "accent"
+                }
+              }}
+              href={npm}
+            >
+              &nbsp;{name}&nbsp;
+            </a>
+            npm package
+          </>
+        ) : null}
+      </div>
     </div>
   );
 };
