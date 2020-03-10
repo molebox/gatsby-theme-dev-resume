@@ -23,7 +23,6 @@ const ProjectLinks = ({ github, npm, live, name }) => {
       >
         {live ? (
           <>
-            View
             <a
               sx={{
                 fontSize: ["0.8em", "1em", "1em"],
@@ -36,7 +35,7 @@ const ProjectLinks = ({ github, npm, live, name }) => {
               }}
               href={live}
             >
-              &nbsp;{name}
+              View&nbsp;{name}
             </a>
           </>
         ) : null}
@@ -46,7 +45,6 @@ const ProjectLinks = ({ github, npm, live, name }) => {
           display: "flex"
         }}
       >
-        View
         <a
           sx={{
             fontSize: ["0.8em", "1em", "1em"],
@@ -59,9 +57,8 @@ const ProjectLinks = ({ github, npm, live, name }) => {
           }}
           href={github}
         >
-          &nbsp;{name}&nbsp;
+          View&nbsp;{name}&nbsp;source
         </a>
-        source
       </div>
       <div
         sx={{
@@ -70,7 +67,6 @@ const ProjectLinks = ({ github, npm, live, name }) => {
       >
         {npm ? (
           <>
-            View
             <a
               sx={{
                 fontSize: ["0.8em", "1em", "1em"],
@@ -83,9 +79,8 @@ const ProjectLinks = ({ github, npm, live, name }) => {
               }}
               href={npm}
             >
-              &nbsp;{name}&nbsp;
+              View&nbsp;{name}&nbsp;npm package
             </a>
-            npm package
           </>
         ) : null}
       </div>
@@ -94,3 +89,4 @@ const ProjectLinks = ({ github, npm, live, name }) => {
 };
 
 export default ProjectLinks;
+
