@@ -12,6 +12,6 @@
     "gatsby": "^2.19.41",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "gatsby-theme-resume": "*"
+    "gatsby-theme-dev-resume": "*"
   }
 }

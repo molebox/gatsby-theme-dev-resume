@@ -1,7 +1,7 @@
 module.exports = {
     plugins: [
         {
-           resolve: 'gatsby-theme-resume',
+           resolve: 'gatsby-theme-dev-resume',
            options: {
                showSummary: true,
                showReference: true,
