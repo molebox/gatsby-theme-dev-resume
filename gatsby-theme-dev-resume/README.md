@@ -1,8 +1,8 @@
-# gatsby-theme-resume
+# gatsby-theme-dev-resume
 
 A Gatsby theme to easily create a resume which can be hosted on the internet and also saved or printed to PDF
 
-Example live site - [gatsby-theme-resume.netlify.com](https://gatsby-theme-resume.netlify.com)
+Example live site - [gatsby-theme-dev-resume.netlify.com](https://gatsby-theme-resume.netlify.com)
 
 
 Example: 
@@ -11,7 +11,7 @@ Example:
 module.exports = {
     plugins: [
         {
-           resolve: 'gatsby-theme-resume',
+           resolve: 'gatsby-theme-dev-resume',
            options: {
                showSummary: true,
                showReference: true,
@@ -28,7 +28,7 @@ module.exports = {
 
 ## Setup
 
-To install run `yarn add gatsby-theme-resume`. A resume folder containing the resume.json file will be created for you will some dummy data. Its important to not change any of the keys in the json file otherwise the site will break.
+To install run `yarn add gatsby-theme-dev-resume`. A resume folder containing the resume.json file will be created for you will some dummy data. Its important to not change any of the keys in the json file otherwise the site will break.
 
 ## Props
 
