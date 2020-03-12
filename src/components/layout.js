@@ -19,6 +19,8 @@ const Layout = ({ children }) => {
             -webkit-overflow-scrolling: touch;
             width: 100%;
             overflow-x: hidden;
+            max-width: 1200px;
+            margin: 0 auto;
           }
         `}
       />
