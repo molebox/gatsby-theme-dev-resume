@@ -2,6 +2,8 @@
 
 A Gatsby theme to easily create a resume which can be hosted on the internet and also saved or printed to PDF
 
+Example can be seen here: [gatsby-theme-dev-resume.netlify.com](https://gatsby-theme-dev-resume.netlify.com)
+
 Example: 
 
 ```js
