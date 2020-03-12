@@ -1,0 +1,205 @@
+{
+  "basics": {
+    "name": "Richard Haines",
+    "label": "Software Developer",
+    "email": "richardhaines.dev",
+    "website": "http://richardhaines.dev",
+    "github": "https://github.com/molebox",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!"
+  },
+  "work": [{
+      "company": "Fab Company Three!!!",
+      "position": "Software Developer",
+      "startDate": "2018-05-02",
+      "present": "present",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Less",
+        "Agile"
+      ]
+    },
+    {
+      "company": "Fab Company Two!!",
+      "position": "Software Developer",
+      "startDate": "2017-05-02",
+      "endDate": "2018-05-01",
+      "present": "",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Less",
+        "Gatsby"
+      ]
+    },
+    {
+      "company": "Fab Company One!",
+      "position": "Software Developer",
+      "startDate": "2016-05-02",
+      "endDate": "2018-05-01",
+      "present": "",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "stack": [
+        "NextJs",
+        "TypeScript",
+        "Rails",
+        "CSS-in-JS",
+        "Agile"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "University",
+    "area": "Software Developer",
+    "qualification": "Software Developer within EVERYTHING!!!",
+    "startDate": "2016-08-01",
+    "endDate": "2018-05-01",
+    "courses": [
+      "C# .NET",
+      "Database Architecture",
+      "SQL",
+      "OOP",
+      "Web Publication and Development",
+      "Agile",
+      "ETC..."
+    ]
+  }],
+  "projects": [{
+      "name": "richardhaines.dev",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "stack": [
+        "React",
+        "Gatsby",
+        "Theme-ui",
+        "MDX"
+      ],
+      "github": "https://github.com/molebox/richardhaines.dev",
+      "npm": "",
+      "live": "https://richardhaines.dev/"
+    },
+    {
+      "name": "justask.dev",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "stack": [
+        "React",
+        "Gatsby",
+        "Theme-ui",
+        "Emotion",
+        "MDX"
+      ],
+      "github": "https://github.com/molebox/justask.dev",
+      "npm": "",
+      "live": "https://justask.dev/"
+    },
+    {
+      "name": "gatsby-theme-pocket",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "stack": [
+        "React",
+        "Gatsby",
+        "Theme-ui",
+        "Emotion"
+      ],
+      "github": "https://github.com/molebox/gatsby-theme-pocket",
+      "npm": "https://www.npmjs.com/package/gatsby-theme-pocket",
+      "live": "https://gatsby-theme-pocket-example.netlify.com/articleIndex/"
+    },
+    {
+      "name": "gatsby-theme-testimonials",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
+      "stack": [
+        "React",
+        "Gatsby",
+        "Theme-ui",
+        "Emotion"
+      ],
+      "github": "https://github.com/molebox/gatsby-theme-testimonials",
+      "npm": "https://www.npmjs.com/package/gatsby-theme-testimonials"
+    }
+  ],
+  "skills": [{
+      "name": "Languages and Scripts",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "GraphQL",
+        "MDX"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "CSS-in-JS",
+        "Emotion",
+        "Theme-ui",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Web Frameworks",
+      "keywords": [
+        "Gatsby",
+        "React",
+        "Redux"
+      ]
+    },
+    {
+      "name": "CMS",
+      "keywords": [
+        "Sanity.io",
+        "Contenful",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "Web Debug Tools",
+      "keywords": [
+        "Chrome dev tools"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "keywords": [
+        "Expo",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Database and ORM",
+      "keywords": [
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "Versioning and others",
+      "keywords": [
+        "GIT",
+        "Jira",
+        "Bitbucket",
+        "Agile Process"
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Erlich Bachman",
+    "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+  }]
+}
