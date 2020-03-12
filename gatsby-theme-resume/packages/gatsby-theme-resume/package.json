@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-theme-resume",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "pretty-check": "prettier --check \"src/**/*.{js}\"",
+    "pretty": "prettier --write \"src/**/*js\""
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
+    "gatsby": "^2.19.32",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-filesystem": "^2.1.50",
+    "gatsby-transformer-json": "^2.2.27",
+    "mkdirp": "^1.0.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "theme-ui": "^0.3.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.19.32",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
